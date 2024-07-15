@@ -1,0 +1,225 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+.contenedor {
+    justify-content: center; 
+    position: relative;
+}
+.contenedor img  {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.contenedor img {
+    width: 1300px;
+    height: auto;
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+.contenedor4 {
+    margin-top: 10px; 
+    position: relative;
+}
+
+.contenedor4 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.contenedor4 img{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: contain;
+}
+.cui{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+.cui img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.cui img{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: contain;
+}
+.cui2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+.cui2 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.cui2 img{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: contain;
+}
+.cui3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+.cui3 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.cui3 img{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: contain;
+}
+.cui4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+.cui4 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.cui4 img{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: contain;
+}
+.cui5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px; 
+}
+.cui5 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.cui5 img{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+    .IMAGENES, .IMAGENES2, .IMAGENES3, .IMAGENES4, .GIF, .gif2, .gif3, .gif4, .gif5 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .IMAGENES, .IMAGENES2, .IMAGENES3, .IMAGENES4, .GIF, .gif2, .gif3, .gif4, .gif5 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .IMAGENES, .IMAGENES2, .IMAGENES3, .IMAGENES4, .GIF, .gif2, .gif3, .gif4, .gif5 {
+        max-width: 1300px;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+}
+
+.cui{
+    margin-top: 10px; 
+    position: relative;
+}
+.cui2{
+    margin-top: 10px; 
+    position: relative;
+}
+ .cui3{
+    margin-top: 10px; 
+    position: relative;
+ }
+.cui4{
+    margin-top: 10px; 
+    position: relative;
+}
+.cui5{
+    margin-top: 10px; 
+    position: relative;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
