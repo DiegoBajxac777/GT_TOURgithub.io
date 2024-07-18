@@ -1,0 +1,105 @@
+body {
+    background-color: #EDE7D9; /* Fondo principal */
+    color: #192318; /* Texto principal */
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #192318; /* Fondo de contenedor */
+}
+
+.contenedor img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    width: 1300px;
+}
+
+.cui, .cui2, .cui3, .cui4, .cui5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #DA9E14; /* Fondo de las secciones */
+    color: #EDE7D9; /* Texto de las secciones */
+}
+
+.cui img, .cui2 img, .cui3 img, .cui4 img, .cui5 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    width: 100%;
+    max-width: 1300px;
+}
+
+@media screen and (max-width: 767px) {
+    .IMAGENES, .GIF, .gif2, .gif3, .gif4, .gif5 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .IMAGENES, .GIF, .gif2, .gif3, .gif4, .gif5 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .IMAGENES, .GIF, .gif2, .gif3, .gif4, .gif5 {
+        max-width: 1300px;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+}
+
+.cui {
+    margin-top: 10px;
+    position: relative;
+}
+
+.cui2 {
+    margin-top: 10px;
+    position: relative;
+}
+
+.cui3 {
+    margin-top: 10px;
+    position: relative;
+}
+
+.cui4 {
+    margin-top: 10px;
+    position: relative;
+}
+
+.cui5 {
+    margin-top: 10px;
+    position: relative;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
